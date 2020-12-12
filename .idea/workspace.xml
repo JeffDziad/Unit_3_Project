@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8196c14-5e86-44cc-b6b0-b809f06d32d5" name="Default Changelist" comment="" />
+    <list default="true" id="d8196c14-5e86-44cc-b6b0-b809f06d32d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cabins.html" beforeDir="false" afterPath="$PROJECT_DIR$/cabins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cabinsMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/cabinsMain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmation.js" beforeDir="false" afterPath="$PROJECT_DIR$/confirmation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmed.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rentalMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/rentalMain.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +25,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1l2Y06NFajX3aS9c9UNAAKx66vR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,7 +52,7 @@
       <updated>1606796427162</updated>
       <workItem from="1606796428275" duration="21239000" />
       <workItem from="1607665873970" duration="2086000" />
-      <workItem from="1607712191314" duration="30835000" />
+      <workItem from="1607712191314" duration="33037000" />
     </task>
     <servers />
   </component>
@@ -51,6 +64,14 @@
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state x="591" y="295" key="FileChooserDialogImpl/0.0.1620.1080@0.0.1620.1080" timestamp="1607712972687" />
+    <state x="679" y="438" key="Github.ShareDialog" timestamp="1607748209760">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="679" y="438" key="Github.ShareDialog/0.0.1620.1080@0.0.1620.1080" timestamp="1607748209760" />
+    <state x="603" y="245" key="Github.UntrackedFilesDialog" timestamp="1607748228803">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="603" y="245" key="Github.UntrackedFilesDialog/0.0.1620.1080@0.0.1620.1080" timestamp="1607748228803" />
     <state x="62" y="340" key="SettingsEditor" timestamp="1607729581339">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>

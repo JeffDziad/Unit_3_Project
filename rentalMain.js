@@ -1,5 +1,8 @@
 $(document).ready(function (){
 
+    var total;
+
+    //setup validation rules and messages
     var myRules =
         {
             fullName:
@@ -66,6 +69,7 @@ $(document).ready(function (){
                 }
         }
 
+    //on button press, validate the form. if validation is complete, run the packContents function.
     $("form[name='rental_form']").validate(
         {
             submitHandler: packContents,
@@ -74,12 +78,15 @@ $(document).ready(function (){
         }
     );
 
+    //populate the receipt with default info
     $("#output").text(`Reservation Receipt:\n\n--General Info--\nFullName:\nEmail:\nDate of Birth:\nNumber of Occupants:\nStart Date:\nEnd Date:\nCabin Choice:\nPets:\nBoat Rental:\n\nTotal: $`);
 
+    //wait for confirmation button on modal window to be click to advance to the confirmed page.
     $("#confirmation_button").click(function (){
         window.location.href = 'confirmed.html';
     });
 
+    //after every input is selected, re populate the receipt box with the updated info.
     $(".outputCheck").change(function(){
         var fullName = $("#fullName").val();
         var email = $("#email").val();
@@ -91,7 +98,7 @@ $(document).ready(function (){
         var pets = $("input:radio[name='petRadio']:checked").val();
         var boats = $("input:radio[name='boatRadio']:checked").val();
 
-        var total = 0;
+        total = 0;
 
         if(pets === 'Yes ($50 fee)')
         {
@@ -108,6 +115,7 @@ $(document).ready(function (){
 
     });
 
+    //use moment.js to calculate the dateDiff between two dates. One output a positve number.
     function checkDate(start, end, amount)
     {
         var startDate = moment(start);
@@ -125,6 +133,7 @@ $(document).ready(function (){
         }
     }
 
+    //store inputs in object and take objects and stringify them into cookies. Using js.cookies.js
     function packContents()
     {
         //e.preventDefault();
@@ -153,6 +162,7 @@ $(document).ready(function (){
         Cookies.set("cabin", userInfo.cabin);
         Cookies.set("pet", userInfo.pet);
 
+        //display modal, wait for button click
         $("#myModal").css("display", "block");
     }
 

@@ -1,9 +1,11 @@
 $(document).ready(function()
 {
 
+    //index.html animations
     var textWrapper = document.querySelector('.ml3');
     textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
+    //loop through letters in 'North Woods Experience'
     anime.timeline({loop: false})
         .add({
             targets: '.ml3 .letter',
