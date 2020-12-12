@@ -1,0 +1,575 @@
+body
+{
+    background-image: url("media/main_Backgroundlong.png");
+    margin: 0;
+    padding: 0;
+    max-width: 1620px;
+}
+
+#indexBody
+{
+    overflow: hidden;
+}
+
+.didotFont
+{
+    font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+}
+
+.preventcopy
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#logo
+{
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 200px;
+}
+
+.logoBorder
+{
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 250px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0px;
+    height: 5px;
+    opacity: 0;
+    z-index: -1;
+}
+
+#logoCaption
+{
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 300px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 50px;
+    font-size: 35px;
+    text-overflow: clip;
+    opacity: 0;
+}
+
+.ml3 {
+    font-weight: 900;
+    font-size: 35px;
+    font-family: "Goudy Old Style";
+}
+
+#logoRed
+{
+    background-color: darkred;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#logoOrange
+{
+    background-color: darkorange;
+    margin-top: 25px;
+}
+
+#logoYellow
+{
+    background-color: yellow;
+    margin-top: 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+/* NAV */
+#navMenu
+{
+    opacity: 0;
+}
+
+#navMenuNoOpacity
+{
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#menuToggle
+{
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 50px;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
+    width: 50px;
+}
+
+#menuToggle a
+{
+    text-decoration: none;
+    color: white;
+
+    transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+    color: tomato;
+}
+
+
+#menuToggle input
+{
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0;
+    z-index: 2;
+
+    -webkit-touch-callout: none;
+}
+
+#menuToggle span
+{
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #cdcdcd;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+    transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+    transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: white;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu
+{
+    position: absolute;
+    width: 100px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    border: solid black 2px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-bottom-right-radius: 20px;
+    background: rgba(0, 0, 0, 0.40);
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+#menuToggle input:checked ~ ul
+{
+    transform: none;
+}
+/* END NAV */
+
+#footer
+{
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .45);
+    color: white;
+    border-top: solid white 2px;
+    opacity: 0;
+}
+
+#copywrite
+{
+    width: 250px;
+    margin: 0;
+    padding: 10px;
+}
+
+#contents_Welcome
+{
+    height: 600px;
+    width: 700px;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    background-color: lightblue;
+    box-shadow: 0px 0px 50px black;
+    border: solid grey 5px;
+}
+
+#contents_Cabins
+{
+    height: 2000px;
+    width: 700px;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    background-color: lightblue;
+    box-shadow: 0px 0px 50px black;
+    border: solid grey 5px;
+}
+
+#contents_Rental
+{
+    height: 815px;
+    width: 1000px;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    background-color: lightblue;
+    box-shadow: 0px 0px 50px black;
+    border: solid grey 5px;
+}
+
+#logo_
+{
+    position: absolute;
+    height: 100px;
+    width: 400px;
+    left: 50%;
+    top: 10px;
+    margin-left: -200px;
+}
+
+#welcome_Title
+{
+    text-align: center;
+}
+
+#welcome_Activities
+{
+    text-align: center;
+}
+
+.welcome_Paragraph
+{
+    padding: 20px;
+}
+
+/* CABIN TABS */
+
+ul.tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul.tabs li{
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+ul.tabs li.current{
+    background: #ededed;
+    color: #222;
+}
+
+.tab-content{
+    display: none;
+    background: #ededed;
+    padding: 15px;
+}
+
+.tab-content.current{
+    display: inherit;
+}
+
+/* END TABS */
+
+.cabins_Title
+{
+    text-align: center;
+}
+
+/* IMAGE SLIDER */
+
+
+#slider {
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    border-radius: 4px;
+}
+
+#slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    list-style: none;
+}
+
+#slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 640px;
+    height: 480px;
+    background: #ccc;
+    text-align: center;
+    line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+    border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+    position: relative;
+    margin: 10px auto;
+    width: 160px;
+    font-size: 18px;
+}
+
+/* END IMAGE SLIDER */
+
+.cabins_Paragraph
+{
+    padding: 20px;
+}
+
+.shared
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#leftForm
+{
+    margin: 20px;
+    height: 775px;
+    width: 460px;
+    float: left;
+    background-color: wheat;
+}
+
+#rightReceipt
+{
+    margin: 20px;
+    height: 775px;
+    width: 460px;
+    float: right;
+    background-color: wheat;
+}
+
+.rentals_Title
+{
+    text-align: center;
+}
+
+.rental_Paragraph
+{
+    padding: 20px;
+}
+
+#formFieldset
+{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rental_Input
+{
+    float: right;
+}
+
+.rental_Label
+{
+    float: left;
+}
+
+#output
+{
+    margin-top: 30px;
+    resize: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+label.error {
+    color: red;
+    font-size: smaller;
+    font-weight: bold;
+    float: left;
+}
+
+#confirmation
+{
+    height: 600px;
+    width: 700px;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    background-color: lightblue;
+    box-shadow: 0px 0px 50px black;
+    border: solid grey 5px;
+}
+
+/* MODAL */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* MODAL */
+
+#petDocument
+{
+    margin-bottom: 0;
+    background-color: wheat;
+    width: 700px;
+    height: 75px;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#confirmed_output
+{
+    padding: 20px;
+}
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8196c14-5e86-44cc-b6b0-b809f06d32d5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l2Y06NFajX3aS9c9UNAAKx66vR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../WebStorm_Projects/FinalProject-WebDev/Website" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8196c14-5e86-44cc-b6b0-b809f06d32d5" name="Default Changelist" comment="" />
+      <created>1606796427162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606796427162</updated>
+      <workItem from="1606796428275" duration="21239000" />
+      <workItem from="1607665873970" duration="2086000" />
+      <workItem from="1607712191314" duration="30835000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="591" y="295" key="FileChooserDialogImpl" timestamp="1607712972687">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="591" y="295" key="FileChooserDialogImpl/0.0.1620.1080@0.0.1620.1080" timestamp="1607712972687" />
+    <state x="62" y="340" key="SettingsEditor" timestamp="1607729581339">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="3281" y="605" key="SettingsEditor/0.0.1620.1080/3240.0.1080.1920@3240.0.1080.1920" timestamp="1606798480946" />
+    <state x="62" y="340" key="SettingsEditor/0.0.1620.1080@0.0.1620.1080" timestamp="1607729581339" />
+    <state x="307" y="251" width="1008" height="382" key="search.everywhere.popup" timestamp="1607729570920">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="306" y="251" width="1008" height="382" key="search.everywhere.popup/0.0.1620.1080/3240.0.1080.1920@0.0.1620.1080" timestamp="1607666438861" />
+    <state x="3443" y="445" width="672" height="678" key="search.everywhere.popup/0.0.1620.1080/3240.0.1080.1920@3240.0.1080.1920" timestamp="1606798477793" />
+    <state x="307" y="251" width="1008" height="382" key="search.everywhere.popup/0.0.1620.1080@0.0.1620.1080" timestamp="1607729570920" />
+  </component>
+</project>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+    <script src="confirmation.js"></script>
+</head>
+<header>
+    <a href="index.html"><img src="media/camp_flambeau_Logo.png" id="logo_"></a>
+</header>
+<body>
+<div id="confirmation">
+    <h1 class="cabins_Title">CONFIRMED!</h1>
+    <p id="confirmed_output"></p>
+    <div id="petDocument">
+        You selected "Yes" on the reservation form for bringing a pet. In order to approve your stay, you must read and agree to the following document and send it back to us at reservations@campflambeau.com.
+        <br><a href="media/petDocument/petDoc.pdf">Download Pet Agreement</a>
+    </div>
+</div>
+<div id="navMenuNoOpacity">
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox"/>
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <a href="welcome.html"><li>Welcome!</li></a>
+                <a href="cabins.html"><li>Cabins</li></a>
+                <a href="rental.html"><li>Rent Now!</li></a>
+            </ul>
+        </div>
+    </nav>
+</div>
+</body>
+</html>

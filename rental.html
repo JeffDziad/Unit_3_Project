@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rent Today!</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous">
+    </script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+    <script src="rentalMain.js"></script>
+</head>
+<header>
+    <a href="index.html"><img src="media/camp_flambeau_Logo.png" id="logo_"></a>
+</header>
+<body>
+<div id="contents_Rental">
+    <div id="leftForm">
+        <h1 class="rentals_Title">Reserve your stay!</h1>
+        <fieldset id="formFieldset">
+            <legend>Rental Details</legend>
+            <form name="rental_form">
+                <h3 class="rentals_Title">General Information</h3>
+                <label for="fullName" class="rental_Label">Full Name -----------------------------</label><input type="text" id="fullName" class="rental_Input outputCheck" name="fullName">
+                <br><br><br>
+                <label for="email" class="rental_Label">Email ----------------------------------</label><input type="email" id="email" class="rental_Input outputCheck" name="email">
+                <br><br><br>
+                <label for="dob" class="rental_Label">Date of Birth -------------------------------</label><input type="date" id="dob" class="rental_Input outputCheck" name="dob">
+                <br><br><br>
+                <label for="occupants" class="rental_Label">Number of Occupants ---------------</label><input type="number" id="occupants" class="rental_Input outputCheck" name="numOcc">
+                <br><br><br>
+                <label for="startDate" class="rental_Label">Start Date -----------------------------------</label><input type="date" id="startDate" class="rental_Input outputCheck" name="sDate">
+                <br><br><br>
+                <label for="endDate" class="rental_Label">End Date ------------------------------------</label><input type="date" id="endDate" class="rental_Input outputCheck" name="eDate">
+                <br><br><br>
+                <label for="cabins" class="rental_Label">Cabin Choice ----------------------------------</label>
+                <select id="cabins" name="cabins" class="rental_Input outputCheck">
+                    <option value="Marquette">Marquette Cabin</option>
+                    <option value="Joliet">Joliet Cabin</option>
+                </select>
+                <br><br>
+                <h3>Any Pets?</h3>
+                <input type="radio" name="petRadio" id="petYes" value="Yes ($50 fee)" class="outputCheck">
+                <label for="petYes">Yes</label>
+                <input type="radio" name="petRadio" id="petNo" value="No" checked="checked" class="outputCheck">
+                <label for="petNo">No</label>
+                <h3>Interested in boat rental?</h3>
+                <input type="radio" name="boatRadio" id="boatYes" value="Yes ($100 per day)" class="outputCheck">
+                <label for="boatYes">Yes</label>
+                <input type="radio" name="boatRadio" id="boatNo" value="No" checked="checked" class="outputCheck">
+                <label for="boatNo">No</label>
+                <br><br>
+                <button id="submit">Reserve Now!</button>
+            </form>
+        </fieldset>
+    </div>
+    <div id="rightReceipt">
+        <h1 class="rentals_Title">Confirm Rental Details</h1>
+        <textarea id="output" cols="55" rows="25" readonly></textarea>
+        <br>
+        <p class="rental_Paragraph">
+            *Once you've completed the form, check to see if the details above are correct.
+            If everything looks good, submit the form and we'll get back to you about making your reservation possible!*
+        </p>
+    </div>
+</div>
+<div id="myModal" class="modal">
+
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Processing...</h2>
+        <p>Your submition ticket is ready! Click the button below to view it!</p>
+        <button type="button" id="confirmation_button">View Confirmation</button>
+    </div>
+
+</div>
+<div id="navMenuNoOpacity">
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox"/>
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <a href="welcome.html"><li>Welcome!</li></a>
+                <a href="cabins.html"><li>Cabins</li></a>
+                <a href="rental.html"><li>Rent Now!</li></a>
+            </ul>
+        </div>
+    </nav>
+</div>
+<script>
+    var modal = document.getElementById("myModal");
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+</body>
+</html>
