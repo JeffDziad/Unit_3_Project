@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8196c14-5e86-44cc-b6b0-b809f06d32d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cabins.html" beforeDir="false" afterPath="$PROJECT_DIR$/cabins.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cabinsMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/cabinsMain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmation.js" beforeDir="false" afterPath="$PROJECT_DIR$/confirmation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmed.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rentalMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/rentalMain.js" afterDir="false" />
-    </list>
+    <list default="true" id="d8196c14-5e86-44cc-b6b0-b809f06d32d5" name="Default Changelist" comment="Finishing Touches" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,12 +43,38 @@
       <updated>1606796427162</updated>
       <workItem from="1606796428275" duration="21239000" />
       <workItem from="1607665873970" duration="2086000" />
-      <workItem from="1607712191314" duration="33037000" />
+      <workItem from="1607712191314" duration="33465000" />
     </task>
+    <task id="LOCAL-00001" summary="Finishing Touches">
+      <created>1607750463926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607750463926</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finishing Touches">
+      <created>1607750615591</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607750615591</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finishing Touches">
+      <created>1607750852702</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607750852702</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finishing Touches" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Touches" />
   </component>
   <component name="WindowStateProjectService">
     <state x="591" y="295" key="FileChooserDialogImpl" timestamp="1607712972687">
@@ -77,6 +94,10 @@
     </state>
     <state x="3281" y="605" key="SettingsEditor/0.0.1620.1080/3240.0.1080.1920@3240.0.1080.1920" timestamp="1606798480946" />
     <state x="62" y="340" key="SettingsEditor/0.0.1620.1080@0.0.1620.1080" timestamp="1607729581339" />
+    <state x="403" y="273" key="Vcs.Push.Dialog.v2" timestamp="1607750638087">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="403" y="273" key="Vcs.Push.Dialog.v2/0.0.1620.1080@0.0.1620.1080" timestamp="1607750638087" />
     <state x="307" y="251" width="1008" height="382" key="search.everywhere.popup" timestamp="1607729570920">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
